@@ -1,3 +1,18 @@
 h1 {
   text-align: center;
 }
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.about {
+  text-align: center;
+}
+
+.my-button {
+justify-content: center;
+}
