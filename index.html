@@ -8,6 +8,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Open this modal</button>
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelled="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal title" id="myModalLabel">Fill this form habibi</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label" >Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Theeb Al-Qahtani">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" class="form-control" id="email" placeholder="ShabalQahtanMinBarqa505@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <input type="text" class="form-control" id="message" placeholder="You make us Libyans proud habibi. Delicious food!">
+            </div>
+            <div>
+              <button type="submit" class="btn btn-info">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="img-container">
     <h1>Libya, A Taste of Arabia Restaurant</h1>
     <a class="my-button" href="about.html">Learn about Libya</a>
